@@ -1,0 +1,28 @@
+LEGAL DOCUMENT EDA REPORT
+============================================================
+
+Dataset Shape : (5000, 11)
+
+Columns :
+['document_id', 'client_type', 'industry', 'agreement_duration', 'confidentiality_level', 'payment_type', 'jurisdiction', 'renewal_option', 'status', 'document_text', 'document_type']
+
+Missing Values :
+document_id              0
+client_type              0
+industry                 0
+agreement_duration       0
+confidentiality_level    0
+payment_type             0
+jurisdiction             0
+renewal_option           0
+status                   0
+document_text            0
+document_type            0
+dtype: int64
+
+Duplicate Rows : 0
+
+Most Common Document Type : Lease Agreement
+Most Common Client Type : Company
+Most Common Industry : Real Estate
+Most Common Status : Approved

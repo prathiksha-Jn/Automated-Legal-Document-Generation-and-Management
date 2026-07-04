@@ -1,0 +1,77 @@
+============================================================
+FEATURE ENGINEERING REPORT
+============================================================
+
+Project:
+Automated Legal Document Generation and Management
+
+Objective:
+Prepare the cleaned dataset for Machine Learning by converting
+raw data into a format suitable for model training.
+
+------------------------------------------------------------
+FEATURE ENGINEERING STEPS
+------------------------------------------------------------
+
+1. Label Encoding
+- Converted categorical columns into numeric values.
+- Machine Learning models cannot process text directly.
+- Applied LabelEncoder to all categorical features.
+
+Encoded Columns:
+- client_type
+- industry
+- confidentiality_level
+- payment_type
+- jurisdiction
+- renewal_option
+- status
+
+Target Column:
+- document_type
+
+------------------------------------------------------------
+
+2. Date Transformation
+
+- filing_date converted into:
+    • filing_year
+    • filing_month
+    • filing_day
+
+- Original filing_date column removed after extracting
+  useful features.
+
+------------------------------------------------------------
+
+3. Feature Scaling
+
+- Applied StandardScaler.
+- Standardized all numerical feature columns.
+- Scaling improves model performance and training stability.
+
+------------------------------------------------------------
+
+Final Features Used
+
+- client_type
+- industry
+- agreement_duration
+- confidentiality_level
+- payment_type
+- jurisdiction
+- renewal_option
+- status
+
+Target
+
+- document_type
+
+------------------------------------------------------------
+
+Result
+
+The dataset is now fully transformed into numerical format
+and ready for Machine Learning and Deep Learning models.
+
+============================================================

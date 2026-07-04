@@ -1,0 +1,5 @@
+,document_id,client_type,industry,agreement_duration,confidentiality_level,payment_type,jurisdiction,renewal_option,status,document_text,document_type
+count,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000,5000
+unique,5000,7,7,5,3,3,5,2,4,5000,10
+top,DOC04711,Company,Real Estate,1 Year,Low,Yearly,Tamil Nadu,No,Approved,Strong field say result not audience guy imagine. Charge affect effort image. Turn camera no. Newspaper I always service continue meeting set. Sea cultural firm body push machine strong occur. Democrat pay better this down gun assume.,Lease Agreement
+freq,1,764,814,1229,1692,1704,1042,2506,1391,1,743
